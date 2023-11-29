@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+    background-color: #04b34a;
+ 
+
+}
+
+nav {
+    font-family: ;
+}
+
+nav ul {
+    /* justify-content: center; */
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none;
+    height: 90px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding-left: 0;
+
+}
+
+.brand img {
+    padding: 0px;
+
+    height: 69px;
+
+
+}
+
+.brand {
+
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+    padding-left: 0px;
+}
+
+nav ul li {
+ color: white;
+    padding-left: 22px;
+
+}
+.bottom{  position: sticky;
+height: 120px;
+background-color: black;
+bottom: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+flex-direction: column;
+
+
+}
+.container{ background-color: #000000;
+min-height: 66vh ;
+width: 80%;
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+/* margin-top: 5px;
+margin-bottom: 5px; */
+display: flex;
+margin: 5px auto;
+padding: 4px;
+border-radius: 12px;
+background-image: url(spotifyback.jpg) ;
+background-position: right;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+#myprogressbar{  width: 100vw;}
+.icon{ display: flex;
+justify-content: center;
+align-items: center;
+}
+.icon i{ padding: 12px;}
+.icons i{  cursor: pointer;}
+songitem.span{   margin-left: 2px;}
+
+.songitem{  height: 50px;
+display: flex;
+background-color: white;
+ width:89% ;
+color: black;
+margin-top:12px  ;
+border-radius: 12px;
+ align-items:  center;
+ justify-content:  space-around;
+}
+
+.songitem img{
+    width: 40px;
+    border-radius: 30px;
+    border: solid black;
+}
+.songlist{
+
+width: 50%;}
+.mysongs{
+margin-top: 15px;
+display: flex;
+align-items: center;
+flex-direction:  column;
+
+}
+
+
+.fix{
+ display: flex;
+width: 200px;
+justify-content: center;
+
+}
+.mysongs i{ margin-left: 20px;}
+nav ul li a{ color: white;
+text-decoration: none;
+
+font-size: 25px;
+margin-left: 70px;
+}
+.brand{ font-size: 50px;
+}
+.timespan i{ cursor: pointer; }
+
+.icon{  
+     width: 90vw;  display:  flex;
+justify-content: space-around;}
+
+.icon img{  opacity: 1;
+ transition: opacity is ease-in ;}
+
+ #myprogressbar{ cursor: pointer;}
+
+
+ .play i{ cursor: pointer;}
+ .icon i{ color: white;}
+ .brand li{ padding: 0px;}
+ .home{ display:  flex;}
+
+ .input{ display: flex;
+margin-left: 30px;
+padding: 30px;}
+
+.nav{ display: flex; background-color: black;
+justify-content: space-around;}
+.brand{ color: white;}
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: red;
+    }
+  }
